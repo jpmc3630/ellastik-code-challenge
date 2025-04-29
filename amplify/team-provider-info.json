@@ -9,11 +9,24 @@
       "UnauthRoleName": "amplify-elastikcodechallenge-dev-de5a8-unauthRole",
       "StackName": "amplify-elastikcodechallenge-dev-de5a8",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:333614442575:stack/amplify-elastikcodechallenge-dev-de5a8/f7c34720-24c6-11f0-bbe5-0a43170006f9",
-      "AmplifyAppId": "d1o3u7it13pd8w"
+      "AmplifyAppId": "d1o3u7it13pd8w",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-elastikcodechallenge-dev-de5a8-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "elastikcodechallenge7391e93c": {}
+      },
+      "function": {
+        "studentsLambdaFn": {
+          "deploymentBucketName": "amplify-elastikcodechallenge-dev-de5a8-deployment",
+          "s3Key": "amplify-builds/studentsLambdaFn-78676239644962366e41-build.zip"
+        }
+      },
+      "api": {
+        "studentsApi": {}
+      },
+      "storage": {
+        "studentsDB": {}
       }
     }
   }
